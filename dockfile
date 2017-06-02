@@ -70,3 +70,4 @@ RUN curl -sSL $GO_PACKAGE_URL | tar -xvzf - -C /usr/local
 VOLUME [ "$WORKDIR" ]
 
 WORKDIR $WORKDIR
+
